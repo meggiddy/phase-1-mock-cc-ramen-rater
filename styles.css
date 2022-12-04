@@ -44,7 +44,8 @@ header {
 }
 
 .detail-image {
-  height: 350px;
+  height: 300px;
+  max-width: 300px;
 }
 
 .name,

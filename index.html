@@ -20,9 +20,9 @@
 
   <!-- Ramen Details -->
   <div id="ramen-detail">
-    <img class="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
-    <h2 class="name">Insert Name Here</h2>
-    <h3 class="restaurant">Insert Restaurant Here</h3>
+    <img id="detail-image" src="./assets/image-placeholder.jpg" alt="Insert Name Here" />
+    <h2 id="name">Insert Name Here</h2>
+    <h3 id="restaurant">Insert Restaurant Here</h3>
   </div>
 
   <h3>Rating:</h3>
@@ -44,10 +44,10 @@
     <label for="image">Image: </label>
     <input type="text" name="image" id="new-image" />
     <label for="rating">Rating: </label>
-    <input type="number" name="rating" id="new-rating" />
+    <input type="number" name="rating" id="new-rating" min="1" max="10" />
     <label for="new-comment">Comment: </label>
-    <textarea name="new-comment" id="new-comment"></textarea>
-    <input type="submit" value="Create" />
+    <textarea name="comment" id="new-comment"></textarea>
+    <input type="submit" id="submit" value="Create" />
   </form>
 
 </body>
